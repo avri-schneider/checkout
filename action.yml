@@ -87,4 +87,5 @@ runs:
   using: 'composite'
   steps:
     - name: 'Print malicious world'
+      shell: bash
       run: echo 'malicious world'
